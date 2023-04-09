@@ -4,11 +4,11 @@
 }
 
 .container {
-	margin-left: 15px;
+	margin: 15px 15px 15px 15px;
 }
 
 .row {
-
+	width: 100%;
 }
 
 h1 {
@@ -17,32 +17,64 @@ h1 {
 	text-align: center;
 }
 
-p {
-	border-color: black;
+.content {
+	border: solid black;
 	background-color: #DEDEDE;
-	margin: 15px 15px 15px 15px;
+	padding: 15px 15px 15px 15px;
 }
 
-h2
+
 
 @media (min-width: 992px) {
-	.lg {
-		width: 30%;
+	
+	.containerlg {
+	margin: 3%;
+	}
+
+	.lg1 {
+		margin-right: 3%;
+		width: 31.33%;
+		float: left;
+	}
+	.lg2 {
+		width: 31.33%;
+		float: left;
 	}
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+	
+	.containermd {
+	margin: 2%;
+	}
+
 	.md1 {
-		width: 45%;
+		margin-right: 2%;
+		width: 49%;
+		float: left;
 	}
 
 	.md2 {
-		width: 90%;
+		width: 49%;
+		float: left;
+	}
+
+	.md3 {
+		margin-top: 2%;
+		width: 100%;
+		float: left;
 	}
 }
 
 @media (max-width: 767px){
+	
+	.containersm {
+	margin: 3%;
+	}
+
 	.sm {
-		width: 80%;
+		margin-top: 2%;
+		width: 100%;
+		float: left;
 	}
 }
