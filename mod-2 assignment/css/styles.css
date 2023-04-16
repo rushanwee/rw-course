@@ -21,6 +21,7 @@ h1 {
 	border: solid black;
 	background-color: #DEDEDE;
 	padding: 15px 15px 15px 15px;
+	clear:right;
 }
 
 
@@ -77,4 +78,38 @@ h1 {
 		width: 100%;
 		float: left;
 	}
+}
+
+.header1 {
+	float: right;
+	background-color: #FAA;
+	border: solid black;
+	margin: 0px;
+	padding: 5px 35px 5px 35px;
+	position: relative;
+	bottom: 16px;
+	left: 16px;
+}
+
+.header2 {
+	float: right;
+	background-color: #B22;
+	color: #FFF;
+	border: solid black;
+	margin: 0px;
+	padding: 5px 35px 5px 35px;
+	position: relative;
+	bottom: 16px;
+	left: 16px;
+}
+
+.header3 {
+	float: right;
+	background-color: #CCA;
+	border: solid black;
+	margin: 0px;
+	padding: 5px 35px 5px 35px;
+	position: relative;
+	bottom: 16px;
+	left: 16px;
 }
